@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Select color">
+        <ListPreference
+            android:title="pick a color"
+            android:key="listPref1"
+            android:defaultValue="1"
+            android:entries="@array/answers"
+            android:entryValues="@array/answers" />
+    </PreferenceCategory>
+        
+</PreferenceScreen>
